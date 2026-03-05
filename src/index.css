@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Gowun+Batang:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+@theme {
+  --font-serif: "Nanum Myeongjo", "Cormorant Garamond", serif;
+  --font-display: "Gowun Batang", serif;
+  --color-gold-100: #fbf6e3;
+  --color-gold-200: #f5e8b7;
+  --color-gold-300: #ebd482;
+  --color-gold-400: #e2bf54;
+  --color-gold-500: #d9a82a;
+  --color-wine-500: #881337;
+  --color-wine-700: #4c0519;
+  --color-purple-900: #3b0764;
+}
+
+body {
+  font-family: var(--font-serif);
+  background-color: #fafafa;
+  color: #2a2a2a;
+}
